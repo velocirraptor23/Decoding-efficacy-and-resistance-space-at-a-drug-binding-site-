@@ -1,0 +1,3 @@
+This folder is for running Evo2 7B model on predictions in colab. For this I selected L4 gpu's with high RAM. 
+Along the colab notebook I added the full sequences I used for the calculation.
+Evo2 40B is too heavy, not easy to handle in colab.
