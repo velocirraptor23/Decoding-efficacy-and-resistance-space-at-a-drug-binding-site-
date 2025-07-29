@@ -1,6 +1,7 @@
 # Decoding-efficacy-and-resistance-space-at-a-drug-binding-site
 This repo is for the paper entitled "Decoding efficacy and resistance space at a drug binding site" by Altmann  et al.
 Link for the preprint. https://www.biorxiv.org/content/10.1101/2025.07.25.666894v1
+
 a) To recreate figures 6 and 7, please use these package versions
 -Python 3.13.2
 -matplotlib: 3.10.3
