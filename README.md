@@ -11,5 +11,6 @@ a) To recreate figures 6 and 7, please use these package versions
 -pycirclize: 1.9.1
 
 b) For running Evo2 prediction we deployed a notebook guidance but you may need to install packages depending of your enviroment.
+For further question please visit. https://github.com/ArcInstitute/evo2.git
 
 c) We provide frames from each cluster from the Molecular dynamic simulations (MD).
