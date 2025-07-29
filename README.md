@@ -12,4 +12,4 @@ a) To recreate figures 6 and 7, please use these package versions
 
 b) For running Evo2 prediction we deployed a notebook guidance but you may need to install packages depending of your enviroment.
 
-c) We provide frames from each cluster from the dynamic simulation.
+c) We provide frames from each cluster from the Molecular dynamic simulations (MD).
