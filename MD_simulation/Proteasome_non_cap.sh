@@ -1,0 +1,1 @@
+"${SCHRODINGER}/utilities/multisim" -JOBNAME Proteasome_non_cap -HOST long_gpu_t640.q -maxjob 1 -cpu 1 -m Proteasome_non_cap.msj -c Proteasome_non_cap.cfg -description 'Molecular Dynamics' Proteasome_non_cap.cms -mode umbrella -o Proteasome_non_cap-out.cms -lic DESMOND_GPGPU:16
