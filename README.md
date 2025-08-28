@@ -12,6 +12,7 @@ a) To recreate figures 6 and 7, please use these package versions
 
 b) For running Evo2 prediction we deployed a notebook guidance but you may need to install packages depending of your enviroment.
 For further questions, please visit. https://github.com/ArcInstitute/evo2.git
+-Python 3.12.11
 
 c) We provide full homology model and simulation settings:
 
