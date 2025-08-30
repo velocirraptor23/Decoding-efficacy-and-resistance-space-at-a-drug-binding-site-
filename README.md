@@ -24,4 +24,4 @@ Systems were equilibrated using the standard Desmond relaxation protocol. In bri
 
 Production simulations were performed in the NPT ensemble at 300 K and 1 atm using the Martyna–Tobias–Klein barostat (τ = 2 ps) and a Langevin thermostat (τ = 1 ps). A RESPA multiple-time-step integrator was used with an inner timestep of 2 fs and outer (long-range) timestep of 6 fs (timestep = [0.002 0.002 0.006]). Long-range electrostatics were treated with the U-series method and a 9 Å short-range cutoff. Initial velocities were sampled from a Maxwell–Boltzmann distribution at 300 K (random seed = 2007). Production length was 80 ns; coordinates were written every 100 ps and energies every 1.2 ps. Trajectories were saved in Desmond .dtr format and centred on the solute for analysis.
 
-d) frames from each cluster from the Molecular dynamics simulations (MD) were the MMGBSA protocol was performed.
+d) We provide frames from each cluster from the Molecular dynamics simulations (MD), where the MMGBSA protocol was performed.
