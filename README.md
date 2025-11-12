@@ -3,7 +3,8 @@ This repo is for the paper entitled "Decoding efficacy and resistance space at a
 Link for the preprint. https://www.biorxiv.org/content/10.1101/2025.07.25.666894v1
 
 The workflow implemented is divided in three parts a), b) and c)and some more details are provided d).
-
+**bold text**
+`b`
 <span style="background-color: black; color: white; padding: 2px 4px; border-radius: 3px;">
 a) MD simulations and clustering
 </span>
