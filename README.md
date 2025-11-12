@@ -18,7 +18,7 @@ We clustered the simulation by RMSD and then we selected some clusters as it is 
 
 `b) Free enegy MMGBSA/Calculations`
 
-Free enegy MMGBSA/Calculations was performed for each of the clusters with mutations. For this calculations we provide PDB files from each cluster but the calculation needs to be run externally with Schrodinger suite (﻿﻿Residue scanning tool, 2023-2). We provide the final csv file with results ('all_combined_final.csv')
+Free enegy MMGBSA/Calculations were performed for each of the clusters with mutations. For this calculations we provide PDB files from each cluster but the calculation needs to be run externally with Schrodinger suite (﻿﻿Residue scanning tool, 2023-2). We provide the final csv file with results ('all_combined_final.csv')
 
 `c) EVO2 predictions`
 
