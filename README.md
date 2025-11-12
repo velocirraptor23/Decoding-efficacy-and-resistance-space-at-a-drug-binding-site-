@@ -4,7 +4,7 @@ Link for the preprint. https://www.biorxiv.org/content/10.1101/2025.07.25.666894
 
 The workflow implemented is divided in three parts a), b) and c)and some more details are provided d).
 
-a) We developed a homology model and we provide it in MD_clusters folder. We use the homology models to produce some simulation time following the next settings:
+a) We developed a homology model and we provide it in MD_clusters folder. We use the homology model to produce some simulation time following the next settings:
 
 System preparation and molecular dynamics. The protein–ligand complex was prepared for simulation using Schrödinger’s Maestro/Desmond workflow. The complex was parameterised with the OPLS4 force field; ligand parameters were assigned using the same force field and the Desmond/Schrödinger ligand preparation pipeline. The system was placed in an orthorhombic periodic box with dimensions 155.56 × 206.82 × 146.69 Å (box vectors as used during production), solvated with explicit TIP3P water, and neutralised with counterions. Additional salt was added to a final ionic strength of 0.15 M NaCl. Energy minimisation was performed until convergence using the Desmond default minimiser.
 
