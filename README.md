@@ -2,7 +2,7 @@
 This repo is for the paper entitled "Decoding efficacy and resistance space at a drug binding site" by Altmann  et al.
 Link for the preprint. https://www.biorxiv.org/content/10.1101/2025.07.25.666894v1
 
-The workflow implemented is divided in two parts.
+The workflow implemented is divided in three parts a), b) and c)and some more details are provided d).
 
 a) 
 We developed a homology model and we provide full homology model in MD_clusters folder. We use the homology models to produce some simulation time following the next settings:
