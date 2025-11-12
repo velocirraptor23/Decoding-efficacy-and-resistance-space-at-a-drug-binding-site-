@@ -17,19 +17,18 @@ Systems were equilibrated using the standard Desmond relaxation protocol. In bri
 Production simulations were performed in the NPT ensemble at 300 K and 1 atm using the Martyna–Tobias–Klein barostat (τ = 2 ps) and a Langevin thermostat (τ = 1 ps). A RESPA multiple-time-step integrator was used with an inner timestep of 2 fs and outer (long-range) timestep of 6 fs (timestep = [0.002 0.002 0.006]). Long-range electrostatics were treated with the U-series method and a 9 Å short-range cutoff. Initial velocities were sampled from a Maxwell–Boltzmann distribution at 300 K (random seed = 2007). Production length was 80 ns; coordinates were written every 100 ps and energies every 1.2 ps. Trajectories were saved in Desmond .dtr format and centred on the solute for analysis.
 
 We clustered the simulation by RMSD and then we selected some clusters as it is described in the paper. Folder with PDB cluster files is in MD_clusters folder.
-
+**bold text**
 <span style="background-color: black; color: white; padding: 2px 4px; border-radius: 3px;">
 b) Free enegy MMGBSA/Calculations
 </span>
 
-Free enegy MMGBSA/Calculations for each of the clusters with mutations. For this calculations we provide PDB files from each cluster but the calculation needs to be run externally with Schrodinger suite (﻿﻿Residue scanning tool, 2023-2). We provide the final csv file with results ('all_combined_final.csv')
+Free enegy MMGBSA/Calculations was performed for each of the clusters with mutations. For this calculations we provide PDB files from each cluster but the calculation needs to be run externally with Schrodinger suite (﻿﻿Residue scanning tool, 2023-2). We provide the final csv file with results ('all_combined_final.csv')
 
 <span style="background-color: black; color: white; padding: 2px 4px; border-radius: 3px;">
 c) EVO2 predictions
 </span>
 
-We made a prediction for EVO2 Scores using a colab platform.
-For running Evo2 prediction we deployed a notebook guidance but you may need to install packages depending of your enviroment.
+We made a prediction for EVO2 Scores using a colab platform. For running Evo2 prediction we deployed a notebook guidance but you may need to install packages depending of your enviroment.
 For further questions, please visit. https://github.com/ArcInstitute/evo2.git. (Python version 3.12.11)
 
 We first made all nucleotides that encode the protein and we mutate each codon. Then we substracted the scores for each mutant and normalized from 0 to 1 with specific cutoffs (see paper details). Full colab notebook is provided in Evo2_colab folder.
