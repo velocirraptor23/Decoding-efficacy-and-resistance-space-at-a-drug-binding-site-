@@ -24,8 +24,7 @@ Free energy MMGBSA/Calculations were performed for each of the clusters with mut
 
 We predicted EVO2 Scores using a Colab platform. To run the Evo2 prediction, we have provided a notebook guide; however, you may need to install additional packages depending on your environment. If you have any more questions, please visit. https://github.com/ArcInstitute/evo2.git. (Python version 3.12.11)
 
-We first made all nucleotides that encode the protein, and we mutated each codon in the binding site. Then we subtracted the scores for each mutant and normalised from 0 to 1 with specific cutoffs (see paper details). A full colab notebook is provided in the Evo2_colab folder. The collected results were plotted using a notebook example in the Notebooks folder, as shown in Figure 7.
-In notebook 7, we also combined MMGBSA/Calculations with Evo2 scores to obtain the final heatmaps.
+We first made all nucleotides that encode the protein, and we mutated each codon in the binding site. Then we subtracted the scores for each mutant and normalised from 0 to 1 with specific cutoffs (see paper details). A full colab notebook is provided in the Evo2_colab folder. The collected results were plotted using a notebook example in the Notebooks folder, as shown in Figure 7. In this notebook, we also combined MMGBSA/Calculations with Evo2 scores to obtain the final heatmaps.
 
 `d) Additional information`
 
