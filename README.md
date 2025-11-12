@@ -4,7 +4,6 @@ Link for the preprint. https://www.biorxiv.org/content/10.1101/2025.07.25.666894
 
 The workflow implemented is divided in three parts a), b) and c)and some more details are provided d).
 
-**bold text**
 `a) MD simulations and clustering`
 
 We developed a homology model and we provide it in MD_clusters folder. We use the homology model to produce some simulation time following the next settings:
@@ -17,12 +16,10 @@ Production simulations were performed in the NPT ensemble at 300 K and 1 atm usi
 
 We clustered the simulation by RMSD and then we selected some clusters as it is described in the paper. Folder with PDB cluster files is in MD_clusters folder.
 
-**bold text**
 `b) Free enegy MMGBSA/Calculations`
 
 Free enegy MMGBSA/Calculations was performed for each of the clusters with mutations. For this calculations we provide PDB files from each cluster but the calculation needs to be run externally with Schrodinger suite (﻿﻿Residue scanning tool, 2023-2). We provide the final csv file with results ('all_combined_final.csv')
 
-**bold text**
 `c) EVO2 predictions`
 
 We made a prediction for EVO2 Scores using a colab platform. For running Evo2 prediction we deployed a notebook guidance but you may need to install packages depending of your enviroment.
@@ -32,7 +29,6 @@ We first made all nucleotides that encode the protein and we mutate each codon. 
 Collected results were plotted following a notebook example in Notebooks folder, Figure 7.
 In notebook 7 we also conmbined MMGBSA/Calculations with Evo2 scores to get the final heatmaps.
 
-**bold text**
 `d) Aditional information`
 
 To recreate figures 6 and 7, please use these package versions
