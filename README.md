@@ -14,7 +14,7 @@ Systems were equilibrated using the standard Desmond relaxation protocol. In bri
 
 Production simulations were performed in the NPT ensemble at 300 K and 1 atm using the Martyna–Tobias–Klein barostat (τ = 2 ps) and a Langevin thermostat (τ = 1 ps). A RESPA multiple-time-step integrator was used with an inner timestep of 2 fs and outer (long-range) timestep of 6 fs (timestep = [0.002 0.002 0.006]). Long-range electrostatics were treated with the U-series method and a 9 Å short-range cutoff. Initial velocities were sampled from a Maxwell–Boltzmann distribution at 300 K (random seed = 2007). Production length was 80 ns; coordinates were written every 100 ps and energies every 1.2 ps. Trajectories were saved in Desmond .dtr format and centred on the solute for analysis.
 
-We clustered the simulation by RMSD, and then we selected some clusters as described in the paper. The folder with PDB cluster files is in the MD_clusters folder.
+We clustered the simulation by RMSD, and then we selected some clusters as described in the paper. The folder MD_clusters contains the PDB cluster files.
 
 `b) Free energy MMGBSA/Calculations`
 
@@ -22,7 +22,7 @@ Free energy MMGBSA/Calculations were performed for each of the clusters with mut
 
 `c) EVO2 predictions`
 
-We predicted EVO2 Scores using a Colab platform. For running the Evo2 prediction, we provided a notebook guide; however, you may need to install additional packages depending on your environment. If you have any more questions, please visit. https://github.com/ArcInstitute/evo2.git. (Python version 3.12.11)
+We predicted EVO2 Scores using a Colab platform. To run the Evo2 prediction, we have provided a notebook guide; however, you may need to install additional packages depending on your environment. If you have any more questions, please visit. https://github.com/ArcInstitute/evo2.git. (Python version 3.12.11)
 
 We first made all nucleotides that encode the protein, and we mutated each codon. Then we subtracted the scores for each mutant and normalised from 0 to 1 with specific cutoffs (see paper details). A full colab notebook is provided in the Evo2_colab folder. The collected results were plotted using a notebook example in the Notebooks folder, as shown in Figure 7.
 In notebook 7, we also combined MMGBSA/Calculations with Evo2 scores to obtain the final heatmaps.
