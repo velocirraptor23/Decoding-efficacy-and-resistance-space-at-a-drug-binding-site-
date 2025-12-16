@@ -18,7 +18,7 @@ We clustered the simulation by RMSD, and then we selected some clusters as descr
 
 `b) Free energy MMGBSA/Calculations`
 
-Free energy MMGBSA/Calculations were performed for each of the clusters with mutations. For these calculations, we provide PDB files from each cluster; however, the calculation needs to be run externally using the Schrodinger suite (Residue Scanning Tool, 2023-2). We provide the final csv file with results ('all_combined_final.csv'). This tool implements a high-throughput workflow for testing mutations with the free energy associated (calculated with the MM/GBSA method) using wild-type as reference (baseline).
+Free energy MMGBSA/Calculations were performed for each of the clusters with mutations. For these calculations, we provide PDB files from each cluster; however, the calculation needs to be run externally using the Schrodinger suite (Residue Scanning Tool, 2023-2). We provide the final csv file with results ('all_combined_final.csv'). This tool implements a high-throughput workflow for testing mutations with the free energy associated (calculated with the MM/GBSA method) using wild-type as reference (baseline). For more detail please, refer to the paper associated to this repository.
 
 `c) EVO2 predictions`
 
