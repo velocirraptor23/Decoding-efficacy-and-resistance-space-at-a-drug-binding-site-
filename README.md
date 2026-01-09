@@ -26,7 +26,9 @@ We predicted EVO2 Scores using a Colab platform. To run the Evo2 prediction, we 
 
 We first made all nucleotides that encode the protein, and we mutated each codon in the binding site. Then we subtracted the scores for each mutant and normalised from 0 to 1 with specific cutoffs (see paper details). A full colab notebook is provided in the Evo2_colab folder. The collected results were plotted using a notebook example in the Notebooks folder, as shown in Figure 7. In this notebook, we also combined MMGBSA/Calculations with Evo2 scores to obtain the final heatmaps.
 
-`d) Additional information`
+`d) Additional information
+`
+Aditional docking folder is provided where RMSD plots were generated.
 
 To recreate figures 6 and 7, please use these package versions
 
