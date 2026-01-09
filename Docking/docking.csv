@@ -1,0 +1,8 @@
+,SMILES,ID,Protein_cresset,ROMol,RMSD
+0,[H]c1nc2nc(-c3c([H])c(N([H])C(=O)N4C([H])([H])C([H])([H])C([H])([H])C4([H])[H])c([H])c([H])c3F)c([H])n2nc1N1C([H])([H])C([H])([H])OC([H])([H])C1([H])[H],DDD01012247,-5.1672358640081804,<rdkit.Chem.rdchem.Mol object at 0x7f1db374c900>,0.276
+1,[H]c1nc2nc(-c3c([H])c(N([H])C(=O)N4C([H])([H])C([H])([H])C([H])([H])C4([H])[H])c([H])c([H])c3F)c([H])n2nc1N1C([H])([H])C([H])([H])OC([H])([H])C1([H])[H],DDD01012247,-5.0341841173207396,<rdkit.Chem.rdchem.Mol object at 0x7f1db374c890>,0.309
+2,[H]c1c(N2C([H])([H])C([H])([H])OC([H])([H])C2([H])[H])n2c([H])c([H])c(-c3c([H])c(N([H])C(=O)N4C([H])([H])C([H])([H])C([H])([H])C4([H])[H])c([H])c([H])c3F)nc2n1,GSK3494245,-4.9773320086188697,<rdkit.Chem.rdchem.Mol object at 0x7f1db374c970>,0.353
+3,[H]c1c(N2C([H])([H])C([H])([H])OC([H])([H])C2([H])[H])n2c([H])c([H])c(-c3c([H])c(N([H])C(=O)N4C([H])([H])C([H])([H])C([H])([H])C4([H])[H])c([H])c([H])c3F)nc2n1,GSK3494245,-4.9101978452422301,<rdkit.Chem.rdchem.Mol object at 0x7f1db374c9e0>,0.346
+4,[H]c1nc2nc(-c3c([H])c(N([H])C(=O)N4C([H])([H])C([H])([H])C([H])([H])C4([H])[H])c([H])c([H])c3F)c([H])n2nc1N1C([H])([H])C([H])([H])OC([H])([H])C1([H])[H],DDD01012247,-4.8739726172572899,<rdkit.Chem.rdchem.Mol object at 0x7f1db37b6970>,0.454
+5,[H]c1nc2nc(-c3c([H])c(N([H])C(=O)N4C([H])([H])C([H])([H])C([H])([H])C4([H])[H])c([H])c([H])c3F)c([H])n2nc1N1C([H])([H])C([H])([H])OC([H])([H])C1([H])[H],DDD01012247,-4.7582880464974799,<rdkit.Chem.rdchem.Mol object at 0x7f1db37b6580>,0.36
+6,[H]c1nc2nc(-c3c([H])c(N([H])C(=O)N4C([H])([H])C([H])([H])C([H])([H])C4([H])[H])c([H])c([H])c3F)c([H])n2nc1N1C([H])([H])C([H])([H])OC([H])([H])C1([H])[H],DDD01012247,-4.4054371890958102,<rdkit.Chem.rdchem.Mol object at 0x7f1db36e0660>,0.531
